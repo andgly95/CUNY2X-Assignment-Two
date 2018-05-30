@@ -1,0 +1,22 @@
+body{
+    background: #696969;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin: 20px;
+    text-shadow: 2px 2px black;
+}
+
+div.gif_box{
+    border: 2px solid black;
+}
+
+div.center{
+    margin-left: 30px;
+}
+video{
+    height: 520px;
+    width: 300px;
+}
