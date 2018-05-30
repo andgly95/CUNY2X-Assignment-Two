@@ -5,6 +5,7 @@ body {
     background-color: red;
     display: flex;
     flex-direction: column;
+    font-family: 'Russo One', sans-serif;
 }
 #imagecontainer{
     display: flex;
