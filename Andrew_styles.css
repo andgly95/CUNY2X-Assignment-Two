@@ -1,0 +1,14 @@
+h1 {
+    text-align: center;
+}
+body {
+    background-color: red;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+#imagecontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
