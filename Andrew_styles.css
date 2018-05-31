@@ -2,7 +2,7 @@ h4 {
     text-align: center;
 }
 #red {
-    background-color: red;
+    background-color: rgb(199, 57, 44);
     display: flex;
     flex-direction: column;
     font-family: 'Russo One', sans-serif;
