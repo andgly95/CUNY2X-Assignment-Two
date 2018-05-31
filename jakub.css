@@ -1,0 +1,33 @@
+body{
+  background-color: white;
+}
+
+#wrapper{
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 100%;
+  width: 1024px;
+  padding-left: 42px;
+  padding-right: 42px;
+  background: url("siteBackground.png") repeat-y;
+}
+
+#center{
+  width: 936px;
+  background-color: #7CFC00;
+}
+
+#monopoly{
+  width: auto;
+  height: auto;
+  max-width: 800px;
+  max-height: 800px;
+}
+
+#snoop{
+  background-image: url("https://media.giphy.com/media/TeBpzQZRaBIC4/giphy.gif");
+  background-attachment: fixed;
+  width: auto;
+  height: auto;
+  max-width: 10%;
+}
