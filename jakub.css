@@ -11,7 +11,8 @@ body{
   margin-left: auto;
   margin-right: auto;
   width: 1024px;
-  position: absolute;
+  position: fixed;
+  z-index: 1
 }
 
 #center{
@@ -31,13 +32,23 @@ body{
 #snoop{
   width: 20%;
   height: auto;
-  position: absolute;
+  position: fixed;
   bottom: 0px;
+  z-index: 2;
 }
 
 #money{
   width: 10%;
   height: auto;
-  position: absolute;
+  position: fixed;
   bottom: 50%;
+  z-index: 2;
+}
+
+#money2{
+  background: url("http://25.media.tumblr.com/9d45abd6d919f30bd0faa7ab9c89feff/tumblr_mjqvt76pv71s8bii2o1_400.gif") repeat-y;
+  width: 20%;
+  height: 100%;
+  z-index: 3;
+  position: fixed;
 }
