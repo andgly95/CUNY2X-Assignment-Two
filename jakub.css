@@ -3,17 +3,17 @@ body{
 }
 
 #wrapper{
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: auto;
+  margin-right: auto;
   height: 100%;
   width: 1024px;
   padding-left: 42px;
   padding-right: 42px;
   background: url("siteBackground.png") repeat-y;
+  background-position: center;
 }
 
 #center{
-  width: 936px;
   background-color: #7CFC00;
 }
 
@@ -25,9 +25,9 @@ body{
 }
 
 #snoop{
-  background-image: url("https://media.giphy.com/media/TeBpzQZRaBIC4/giphy.gif");
-  background-attachment: fixed;
   width: auto;
   height: auto;
-  max-width: 10%;
+  max-width: 20%;
+  position: absolute;
+  bottom: 0px;
 }
