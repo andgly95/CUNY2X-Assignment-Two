@@ -1,6 +1,7 @@
 body{
     background: #696969;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 h1{
@@ -10,16 +11,25 @@ h1{
     text-shadow: 2px 2px black;
 }
 
+
 div.gif_box{
-    margin: auto;
     border: 2px solid black;
     box-shadow: 2px 2px 2px grey;
     background: grey;
 }
 
-div.center{
-    display: flex;
-    justify-content: center;
+.reaction, .reaction_two{
+    padding-top: 10px;
+    height: 250px;
+    width: 250px;
+    margin: auto;
+    display: none;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 div.middle_of_page{
@@ -27,10 +37,33 @@ div.middle_of_page{
 }
 
 div.second_box{
-    padding: 50px;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 1px 1px grey;
+}
+
+.button_placement{
+    margin-top: 20px;
     text-align: center;
 }
-video{
-    height: 526px;
-    width: 280px;
+
+.my_button{
+    background: black;
+    color: white;
+    padding: 15px 25px;
+    
 }
+
+.my_button:hover ~ .reaction{
+    display: block;
+}
+
+.my_button:active ~ .reaction_two{
+    display: block;
+}
+
+.my_button:active ~ .reaction{
+    display: none;
+}
+
+
