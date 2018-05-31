@@ -1,0 +1,36 @@
+body{
+    background: #696969;
+    overflow-x: hidden;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin: 20px;
+    text-shadow: 2px 2px black;
+}
+
+div.gif_box{
+    margin: auto;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px grey;
+    background: grey;
+}
+
+div.center{
+    display: flex;
+    justify-content: center;
+}
+
+div.middle_of_page{
+    margin-top: auto;
+}
+
+div.second_box{
+    padding: 50px;
+    text-align: center;
+}
+video{
+    height: 526px;
+    width: 280px;
+}
